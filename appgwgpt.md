@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
   subgraph Internet
     A[Employee Browser]
@@ -13,3 +14,4 @@ flowchart TD
 
   A -- HTTPS --> AGW
   AGW -- HTTPS --> VMPool
+```
